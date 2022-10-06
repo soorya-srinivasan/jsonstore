@@ -1,13 +1,14 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite tests="1" failures="0" time="2.171" name="github.com/voonik/sc2/internal/app/test/models">
+	<testsuite tests="1" failures="0" time="0.608" name="github.com/voonik/sc2/internal/app/test/models">
 		<properties>
 			<property name="go.version" value="go1.16.3"></property>
 			<property name="coverage.statements.pct" value="1.4"></property>
 		</properties>
-		<testcase classname="models" name="TestModels" time="0.020"></testcase>
+		<testcase classname="models" name="TestModels" time="0.030"></testcase>
 	</testsuite>
-	<testsuite tests="1" failures="1" time="1.043" name="github.com/voonik/sc2/internal/app/test/services/create_adjustment_service">
+	<testsuite tests="1" failures="1" time="0.457" name="github.com/voonik/sc2/internal/app/test/services/create_adjustment_service">
 		<properties>
 			<property name="go.version" value="go1.16.3"></property>
 			<property name="coverage.statements.pct" value="6.8"></property>
@@ -23,18 +24,18 @@
 		</properties>
 		<testcase classname="get_cart_data" name="TestGetCartDataService" time="0.090"></testcase>
 	</testsuite>
-	<testsuite tests="1" failures="0" time="1.421" name="github.com/voonik/sc2/internal/app/test/services/loan_service">
+	<testsuite tests="1" failures="0" time="0.564" name="github.com/voonik/sc2/internal/app/test/services/loan_service">
 		<properties>
 			<property name="go.version" value="go1.16.3"></property>
 			<property name="coverage.statements.pct" value="13.8"></property>
 		</properties>
 		<testcase classname="loan_service" name="TestLoanService" time="0.050"></testcase>
 	</testsuite>
-	<testsuite tests="1" failures="0" time="0.716" name="github.com/voonik/sc2/internal/app/test/services/order_reconcillation_log_service">
+	<testsuite tests="1" failures="0" time="0.433" name="github.com/voonik/sc2/internal/app/test/services/order_reconcillation_log_service">
 		<properties>
 			<property name="go.version" value="go1.16.3"></property>
 			<property name="coverage.statements.pct" value="4.5"></property>
 		</properties>
-		<testcase classname="order_reconcillation_log_service" name="TestOrderReconcillationLogService" time="0.050"></testcase>
+		<testcase classname="order_reconcillation_log_service" name="TestOrderReconcillationLogService" time="0.020"></testcase>
 	</testsuite>
 </testsuites>
